@@ -100,7 +100,7 @@ if (window.location.href.indexOf("index.html") > -1 || window.location.href.ends
 
 function addYear() {
   let currentYear = new Date().getFullYear();
-  document.getElementById("copyYear").textContent = `© ${currentYear}`;
+  document.getElementById("copyYear").textContent = ` ${currentYear}`;
 }
 
 function showList() {
